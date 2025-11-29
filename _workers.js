@@ -1293,7 +1293,6 @@ export default {
 
           // 新增：删除自定义源
           async function deleteSource(url) {
-              if(!confirm('确定要删除这个数据源吗？删除后请点击“立即更新”以应用更改。')) return;
 
               try {
                   const response = await fetch('/delete-custom-source', {
