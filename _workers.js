@@ -18,7 +18,7 @@
 // 1. 全局配置
 // ==========================================
 // 自定义保留的优质IP数量
-const FAST_IP_COUNT = 50; 
+const FAST_IP_COUNT = 20; 
 // 自动测速时的最大IP数量，防止超时
 const AUTO_TEST_MAX_IPS = 200; 
 
